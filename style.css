@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+
+.top-section{
+    background-color:#1F2937;
+    padding-bottom: 80px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1F2937;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-content: flex-start;
+}
+
+.left-header{
+    display: flex;
+    color:rgb(199, 201, 201) ;
+    font-size: 26px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.right-header{
+    display: flex;
+    gap:18px;
+    padding-top: 20px;
+    align-self: flex-end;
+}
+a{
+    display: flex;
+    text-decoration: none !important;
+    color: rgb(199, 201, 201);
+}
+
+.main-1{
+    display: flex;
+    background-color:#1F2937;
+    padding-top:75px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+
+.AOM{
+    display:flex;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.text-1{
+    display: flex;
+    color: rgb(239, 245, 245);
+    font-size: 48px;
+    font-weight: 800;
+    flex-wrap: wrap;
+}
+
+.text-2{
+    display:flex;
+    flex-wrap: wrap;
+    color: rgb(219, 221, 221);
+}
+
+.starry_night{
+    max-height: 200px;
+    padding-left: 30px;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    color: rgb(219, 221, 221);
+    font-size: 30px
+}
