@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .top-section{
@@ -53,7 +54,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 400px;
+    max-width: 475px;
 }
 
 .text-1{
@@ -78,7 +79,94 @@ a{
 .quote{
     display: flex;
     align-items: center;
-    max-width: 600px;
+    max-width: 571px;
     color: rgb(219, 221, 221);
     font-size: 30px
+}
+
+
+.middle-section{
+
+}
+
+.header-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#1F2937;
+    font-size: 35px;
+    background-color: rgb(219, 221, 221);
+    height: 80px;
+}
+
+.art{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+}
+
+.mona{
+    display:flex;
+    max-height: 250px;
+}
+
+.wave{
+    max-height: 250px;
+}
+
+.girl{
+    max-height: 250px;
+}
+
+.caption-1{
+    max-width: 164px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 3px;
+}
+
+.caption-2{
+    max-width: 362px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.caption-3{
+    max-width: 168px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.group4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 221, 221);
+    font-size: 23px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    gap:20px;
+}
+
+.text-3{
+    display: flex;
+    align-items: center;
+    color:#1F2937;
+}
+
+button{
+    height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #404b5c;
+    color:rgb(219, 221, 221);
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
 }
