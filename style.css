@@ -170,3 +170,15 @@ button{
     border-radius: 25px;
     align-items: center;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-top: 70px;
+    color: rgb(219, 221, 221);
+    background-color: #404b5c;
+    height: 30px;
+    justify-content: center;
+}
